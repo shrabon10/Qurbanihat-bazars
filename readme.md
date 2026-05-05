@@ -1,16 +1,112 @@
-## 🐄🐐 QurbaniHat – Livestock Booking Platform
+🐄 QurbaniHat Bazar
 
-### **Description:**
-**QurbaniHat** is a modern livestock marketplace where users can explore animals for Qurbani, such as cows and goats. The platform allows users to view comprehensive details including breed, weight, age, and location, and place a booking after a secure authentication process.
+A Modern Digital Livestock Marketplace
 
-### **Technologies Used:**
-*   **Frontend Framework**: Next.js (App Router)
-*   **Database**: MongoDB
-*   **Authentication**: Better-Auth (supporting Email/Password and Google Social Login)
-*   **Animations**: Lottie, React-Spring, or Animate.css
-*   **Styling & UI**: Toast notifications and responsive layouts
+📌 Overview
 
-### **3 Key Features:**
-*   **Dynamic Animal Marketplace**: Users can browse a diverse collection of livestock with the ability to sort animals by price to find the best options quickly.
-*   **Secure Booking System**: An authenticated booking form allows users to reserve animals, providing immediate visual feedback through success toast notifications.
-*   **Personalized Profile Management**: A dedicated "My Profile" section where logged-in users can view their data and update their name or photo in real-time.
+QurbaniHat Bazar is a modern web-based platform designed to simplify the process of buying and selling Qurbani animals. It connects buyers with verified sellers, offering a seamless, transparent, and user-friendly experience.
+
+Built with a focus on performance, scalability, and user experience, this platform brings the traditional livestock market into the digital world.
+
+✨ Features
+🛒 Marketplace
+Browse cows, goats, and other livestock
+Detailed animal profiles (price, weight, breed, health)
+Category-based filtering
+🔐 Authentication
+Secure login & registration system
+Email-based authentication
+Protected user routes
+👤 User Dashboard
+Manage personal profile
+Update user information
+Track activity
+📊 Smart UI/UX
+Modern responsive design
+Animated UI components
+Clean and intuitive navigation
+📦 Data Handling
+JSON-based animal data
+Scalable backend structure
+Optimized API routes
+🧱 Tech Stack
+Frontend
+Next.js (App Router)
+React.js
+Tailwind CSS
+Backend
+API Routes (Next.js)
+Authentication system
+Database
+MongoDB (via custom db connection)
+Tools & Libraries
+ESLint
+PNPM
+Custom animations
+📂 Project Structure
+app/
+ ├── api/auth/
+ ├── details-page/[id]/
+ ├── login/
+ ├── register/
+ ├── my-profile/
+ ├── update/
+ ├── layout.jsx
+ ├── page.jsx
+
+components/
+ ├── Navbar.jsx
+ ├── Hero.jsx
+ ├── Footer.jsx
+ ├── TipsAnimation.jsx
+
+lib/
+ ├── db.js
+ ├── auth.js
+ ├── auth-client.js
+
+data/
+ ├── animals.json
+🚀 Getting Started
+1️⃣ Clone the Repository
+git clone https://github.com/your-username/qurbanihat-bazars.git
+cd qurbanihat-bazars
+2️⃣ Install Dependencies
+pnpm install
+3️⃣ Setup Environment Variables
+
+Create a .env file and add:
+
+MONGODB_URI=your_mongodb_connection_string
+NEXTAUTH_SECRET=your_secret_key
+4️⃣ Run the Development Server
+pnpm dev
+
+Open: http://localhost:3000
+
+🔥 Future Improvements
+🧠 AI-based animal recommendation
+📍 Location-based seller filtering
+💳 Online payment integration
+📱 Mobile app version
+⭐ Review & rating system
+🎯 هدف (Purpose)
+
+This project aims to:
+
+Digitize traditional Qurbani markets
+Ensure transparency in buying livestock
+Save time and effort for users
+Provide a scalable livestock marketplace solution
+👨‍💻 Author
+
+Omor Faruk (Shrabon)
+Frontend Developer | Next.js Enthusiast
+
+📜 License
+
+This project is open-source and available under the MIT License.
+
+💡 Final Note
+
+This is more than just a project — it’s a step toward transforming traditional livestock trading into a modern digital experience.
