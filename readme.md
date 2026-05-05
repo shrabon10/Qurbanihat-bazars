@@ -67,12 +67,16 @@ lib/
 
 data/
  ├── animals.json
+
+ 
 🚀 Getting Started
 1️⃣ Clone the Repository
 git clone https://github.com/your-username/qurbanihat-bazars.git
 cd qurbanihat-bazars
+
 2️⃣ Install Dependencies
 pnpm install
+
 3️⃣ Setup Environment Variables
 
 Create a .env file and add:
@@ -90,7 +94,6 @@ Open: http://localhost:3000
 💳 Online payment integration
 📱 Mobile app version
 ⭐ Review & rating system
-🎯 هدف (Purpose)
 
 This project aims to:
 
