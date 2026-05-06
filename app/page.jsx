@@ -15,11 +15,11 @@ export default function HomePage() {
       <section className="max-w-7xl mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center md:items-end mb-12 gap-4">
           <div className="text-center md:text-left">
-            <h2 className="text-4xl font-black text-gray-900 tracking-tight">
-              Featured Livestock
+            <h2 className="text-4xl font-black text-white-900 tracking-tight">
+            Livestock Animals
             </h2>
-            <p className="text-gray-600 mt-2 text-lg">
-              Handpicked selection of premium cows and goats for Qurbani.
+            <p className="text-gray-400 mt-2 text-lg">
+              Carefully curated, top-quality cows and goats—chosen for trust, health, and a perfect Qurbani experience.
             </p>
           </div>
           <Link

@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 import "./globals.css";
 
 export const metadata = {
-  title: "QurbaniHat | Livestock Booking Platform",
+  title: "QurbaniHat | Premium Cattle & Goat Booking Hub",
   description: "A modern livestock marketplace for Qurbani cows and goats",
 };
 
